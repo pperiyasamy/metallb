@@ -5,7 +5,7 @@ go 1.19
 require (
 	github.com/davecgh/go-spew v1.1.1
 	github.com/go-kit/log v0.2.1
-	github.com/golang/protobuf v1.5.2
+	github.com/golang/protobuf v1.5.3
 	github.com/google/go-cmp v0.5.9
 	github.com/hashicorp/memberlist v0.5.0
 	github.com/mdlayher/arp v0.0.0-20220221190821-c37aaafac7f9
@@ -15,7 +15,7 @@ require (
 	github.com/onsi/ginkgo/v2 v2.6.0
 	github.com/onsi/gomega v1.24.1
 	github.com/open-policy-agent/cert-controller v0.7.0
-	github.com/openshift-kni/k8sreporter v1.0.2
+	github.com/openshift-kni/k8sreporter v1.0.3
 	github.com/ory/dockertest/v3 v3.9.1
 	github.com/osrg/gobgp v2.0.0+incompatible
 	github.com/pkg/errors v0.9.1
@@ -24,14 +24,14 @@ require (
 	github.com/prometheus/common v0.39.0
 	golang.org/x/sync v0.1.0
 	golang.org/x/sys v0.6.0
-	k8s.io/api v0.26.1
+	k8s.io/api v0.27.1
 	k8s.io/apiextensions-apiserver v0.26.1
-	k8s.io/apimachinery v0.26.1
-	k8s.io/client-go v0.26.1
+	k8s.io/apimachinery v0.27.1
+	k8s.io/client-go v0.27.1
 	k8s.io/klog v1.0.0
 	k8s.io/kubernetes v1.26.1
 	k8s.io/pod-security-admission v0.0.0
-	k8s.io/utils v0.0.0-20230115233650-391b47cb4029
+	k8s.io/utils v0.0.0-20230313181309-38a27ef9d749
 	sigs.k8s.io/controller-runtime v0.14.5
 	sigs.k8s.io/yaml v1.3.0
 )
@@ -103,8 +103,6 @@ require (
 	github.com/opencontainers/go-digest v1.0.0 // indirect
 	github.com/opencontainers/image-spec v1.0.2 // indirect
 	github.com/opencontainers/runc v1.1.4 // indirect
-	github.com/openshift/api v0.0.0-20200829102639-8a3a835f1acf // indirect
-	github.com/openshift/client-go v0.0.0-20200827190008-3062137373b5 // indirect
 	github.com/pelletier/go-toml v1.9.3 // indirect
 	github.com/prometheus/procfs v0.9.0 // indirect
 	github.com/satori/go.uuid v1.2.0 // indirect
@@ -136,10 +134,10 @@ require (
 	go.uber.org/multierr v1.7.0 // indirect
 	go.uber.org/zap v1.24.0 // indirect
 	golang.org/x/crypto v0.5.0 // indirect
-	golang.org/x/net v0.7.0 // indirect
+	golang.org/x/net v0.8.0 // indirect
 	golang.org/x/oauth2 v0.4.0 // indirect
-	golang.org/x/term v0.5.0 // indirect
-	golang.org/x/text v0.7.0 // indirect
+	golang.org/x/term v0.6.0 // indirect
+	golang.org/x/text v0.8.0 // indirect
 	golang.org/x/time v0.3.0 // indirect
 	gomodules.xyz/jsonpatch/v2 v2.2.0 // indirect
 	google.golang.org/appengine v1.6.7 // indirect
@@ -154,8 +152,8 @@ require (
 	k8s.io/cloud-provider v0.0.0 // indirect
 	k8s.io/component-base v0.26.1 // indirect
 	k8s.io/component-helpers v0.26.0 // indirect
-	k8s.io/klog/v2 v2.90.0 // indirect
-	k8s.io/kube-openapi v0.0.0-20230123231816-1cb3ae25d79a // indirect
+	k8s.io/klog/v2 v2.90.1 // indirect
+	k8s.io/kube-openapi v0.0.0-20230308215209-15aac26d736a // indirect
 	k8s.io/kubectl v0.0.0 // indirect
 	k8s.io/kubelet v0.0.0 // indirect
 	sigs.k8s.io/apiserver-network-proxy/konnectivity-client v0.0.33 // indirect
